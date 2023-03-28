@@ -13,7 +13,7 @@ const server = require('http').createServer(app);
 const io = require('socket.io')(server);
 
 const config = new Configuration({
-    apiKey: process.env.API_TOKEN
+    apiKey: "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"
 })
 
 const openai = new OpenAIApi(config);
